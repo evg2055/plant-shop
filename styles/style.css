@@ -1,0 +1,176 @@
+/*global*/
+:root {
+    --base-color: #000000;
+    --second-color: #afafaf;
+    --antonim-base-color: #ffffff;
+    --base-size: 10px;
+    --base-percent: 10%;
+}
+* {
+    box-sizing: border-box;
+    font-family: Montserrat, monospace; 
+}
+.body {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    width: calc(var(--base-percent)*9);
+    margin: 0 auto;
+}
+/*header*/
+.header {
+    display: flex;
+    
+}
+.header__content {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    flex-direction: column;
+    flex-wrap:wrap ;
+    justify-content: end;
+}
+.header__div {
+    max-width:80%;
+    margin: 0 calc(var(--base-size)*7) 90px;
+}
+.title__img {
+    max-width: 100%;
+    background-size: cover;
+    
+}
+.header__title {
+    font-size: calc(var(--base-size)*6);
+    color: #156963;
+    font-weight: 500;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+.header__p {
+    font-size: 18px;
+}
+/*.br {
+    display: none;
+}*/
+.header__button {
+    display: flex;
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: #156963;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.header__button-pcs {
+    display: inline-block;
+    flex-direction: row;
+    width: 49%;
+    text-decoration: none;
+    padding: 50px;
+    color: #ffffff;
+}
+.header__button-name {
+    font-size: 32px;
+    font-weight: 500;
+    
+}
+/*.header__button-name-another {
+    color: white;
+}*/
+.header__button-next-prev {
+    font-size: 24px;
+    font-weight: 500;
+    word-spacing: 10px;
+    color: #b4b3b3;
+}
+.button-pcs-another {
+    background-color: white;
+    text-align: right;
+    color: #156963;
+}
+.nav {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    left: 5%;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+}
+.menu__li:first-child {
+    margin-right: 40px;
+}
+.menu__link {
+    text-decoration: none;
+    color: white;
+    background-color: #156963;
+    padding: 10px 35px;
+}
+.sign-up {
+    color: #156963;
+    background-color: white;
+}
+/*service*/
+.service {
+    display: flex;
+}
+.service__card {
+    width: 25%;
+    padding: 20px;
+    height: auto;
+    border: 2px solid #b4b3b3;
+    margin: 140px 0;
+}
+.service__card:not(:first-child) {
+    margin-left: 40px;
+}
+.card-title {
+    display: flex;
+    align-items: center;
+}
+.card-title__text {
+    margin-left: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #156963;
+}
+.service__card-text {
+    font-size: 10px;
+    margin: 20px 0;
+}
+/*featured-plants*/
+.featured-plants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.featured-plants__top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #b4b3b3;
+    margin-bottom: 20px;
+}
+.plants-card__background {
+    background-color: #b4b3b3;
+    width: 217px;
+    height: 217px;
+}
+.plants-card__name {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+.plants-card__price {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}

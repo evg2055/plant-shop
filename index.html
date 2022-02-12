@@ -5,8 +5,124 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>plant-shop</title>
+    <link rel="stylesheet" href="./styles/all.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
+    <div class="body">
+        <nav class="nav container">
+            <img src="./img/logo.png" alt="logo">
+            <ul class="menu">
+                <li class="menu__li"><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li class="menu__li"><i class="fa-solid fa-cart-shopping"></i></li>
+                <li class="menu__li "><a href="#Sign-Up" class="menu__link sign-up">Sign Up</a></li>
+                <li class="menu__li "><a href="#Sign-In" class="menu__link">Sign In</a></li>
+            </ul>
+        </nav>
+        <section class="header">
+            <img src="./img/MaskGroup.svg" alt="man growing a plant" class="title__img">
+            <section class="header__content">
+                <div class="header__div">
+                    <h1 class="header__title">Kembang <br class="br"> Flower Mantap</h1>
+                    <p class="header__p">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s.
+                    </p>
+                </div>
+                 <div class="header__button">
+                    <a href="#previous" class="header__button-pcs button-pcs-another">
+                        <p class="header__button-next-prev"><i class="fa-solid fa-arrow-left"></i> Previous</p>
+                        <p class="header__button-name">Kaktus Plant</p>
+                    </a>
+                    <a href="#next" class="header__button-pcs">
+                        <p class="header__button-next-prev">Next <i class="fa-solid fa-arrow-right"></i></p>
+                        <p class="header__button-name">Rahasia Plant</p>
+                    </a>
+                </div>
+            </section>
+        </section>
+        <section class="service container">
+            <section class="service__card">
+                <div class="card-title">
+                    <img src="./img/fast 1.png" alt="fast car" class="card-title__pic">
+                    <h3 class="card-title__text">Fast<br>Delivery</h3>
+                </div>
+                <p class="service__card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+            </section>
+            <section class="service__card">
+                <div class="card-title">
+                    <img src="./img/headphones 1.png" alt="hphone" class="card-title__pic">
+                    <h3 class="card-title__text">Great Customer<br>Service</h3>
+                </div>
+                <p class="service__card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+            </section><section class="service__card">
+                <div class="card-title">
+                    <img src="./img/plant 1.png" alt="plant" class="card-title__pic">
+                    <h3 class="card-title__text">Original<br>Plants</h3>
+                </div>
+                <p class="service__card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+            </section><section class="service__card">
+                <div class="card-title">
+                    <img src="./img/dollar-symbol 1.png" alt="dollar" class="card-title__pic">
+                    <h3 class="card-title__text">Affordable<br>Price</h3>
+                </div>
+                <p class="service__card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p>
+            </section>
+        </section>
+<!--featured-plants-->
+        <section class="featured-plants container">
+            <div class="featured-plants__top">
+                <h4 class="plants-top__title">Featured Plants</h4>
+                <form action="filtering" class="filter-list">
+                    <select name="filter">
+                        <option value="cheaper first">Cheaper First</option>
+                        <option value="expensive first">Expensive First</option>
+                        <option value="popular first">Popular First</option>
+                    </select>
+                </form>
+            </div>
+            <section class="featured-plants__card">
+                <div class="plants-card__background">
+                    <img src="./img/Kaktus Plants.png" alt="Kaktus Plants" class="plants-card__pic">
+                </div>
+                <p class="plants-card__name">Kaktus Plants</p>
+                <p class="plants-card__price">IDR 85.000</p>
+            </section>
+            <section class="featured-plants__card">
+                <div class="plants-card__background">
+                    <img src="./img/2" alt="2" class="plants-card__pic">
+                </div>
+                <p class="plants-card__name">2</p>
+                <p class="plants-card__price">2</p>
+            </section>
+            <section class="featured-plants__card">
+                <div class="plants-card__background">
+                    <img src="./img/2" alt="2" class="plants-card__pic">
+                </div>
+                <p class="plants-card__name">2</p>
+                <p class="plants-card__price">2</p>
+            </section>
+            <section class="featured-plants__card">
+                <div class="plants-card__background">
+                    <img src="./img/2" alt="2" class="plants-card__pic">
+                </div>
+                <p class="plants-card__name">2</p>
+                <p class="plants-card__price">2</p>
+            </section>
+            <section class="featured-plants__card">
+                <div class="plants-card__background">
+                    <img src="./img/2" alt="2" class="plants-card__pic">
+                </div>
+                <p class="plants-card__name">2</p>
+                <p class="plants-card__price">2</p>
+            </section>
+        </section>
+    </div>
     
 </body>
 </html>
